@@ -31,9 +31,6 @@ flask-nginx-loadbalancer/
 ├── requirements.txt
 └── README.md
 
-markdown
-
-Edit
 
 ## Setup
 
@@ -53,7 +50,6 @@ The application will be accessible at:
 
 arduino
 
-Edit
 http://localhost:8080/
 Refresh the page multiple times to observe load balancing between App 1 and App 2.
 
@@ -71,7 +67,6 @@ Example:
 
 yaml
 
-Edit
 healthcheck:
   test: ["CMD", "curl", "-f", "http://localhost:5000/"]
   interval: 30s
@@ -82,7 +77,6 @@ To stop and remove containers:
 
 ```bash
 
-Edit
 docker-compose down
 
 Author
